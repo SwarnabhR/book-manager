@@ -32,7 +32,7 @@ Decentralized Book Manager is a cross-platform application that allows users to 
 
 ## Project Structure
 
-````bash
+```bash
 book_manager/
 │
 ├── Cargo.toml                  # Root Cargo configuration for the Rust project
@@ -86,6 +86,7 @@ book_manager/
     ├── build_desktop.sh        # Script to build the desktop application
     ├── deploy.sh               # Script to deploy the applications
     └── test.sh                 # Script to run tests across all platforms
+```
 
 ## Installation
 
@@ -99,7 +100,7 @@ book_manager/
 
 ### Clone the Repository
 
-```bash
+````bash
 git clone https://github.com/SwarnabhR/book_manager.git
 cd book_manager
 
