@@ -100,9 +100,10 @@ book_manager/
 
 ### Clone the Repository
 
-````bash
+```bash
 git clone https://github.com/SwarnabhR/book_manager.git
 cd book_manager
+```
 
 ### Install Dependencies
 
@@ -118,28 +119,31 @@ cd ../mobile
 # Desktop dependencies
 cd ../desktop
 # Run appropriate desktop dependency installation command
+```
 
 ## Usage
 
 ### Running in Development Mode
 
 1. **Web**:
-    ```bash
-    cd web
-    trunk serve
-    ```
+
+   ```bash
+   cd web
+   trunk serve
+   ```
 
 2. **Mobile**:
-    ```bash
-    cd mobile
-    # Run your mobile development server
-    ```
+
+   ```bash
+   cd mobile
+   # Run your mobile development server
+   ```
 
 3. **Desktop**:
-    ```bash
-    cd desktop
-    cargo tauri dev
-    ```
+   ```bash
+   cd desktop
+   cargo tauri dev
+   ```
 
 ### Running the Backend
 
@@ -148,6 +152,7 @@ To run the backend for testing or development purposes:
 ```bash
 cd backend
 cargo run
+```
 
 ## Build and Run
 
@@ -158,6 +163,7 @@ To build the web application:
 ```bash
 cd web
 trunk build --release
+```
 
 ### Mobile
 
@@ -166,6 +172,7 @@ To build the mobile application:
 ```bash
 cd mobile
 cargo build --release
+```
 
 ### Backend
 
@@ -174,12 +181,16 @@ To build the backend:
 ```bash
 cd backend
 cargo build --release
+```
+
 ### Testing
 
 Run tests for all platforms and shared components:
 
 ```bash
 cargo test --all
+```
+
 ## Contributing
 
 1. Fork the repository.
@@ -191,4 +202,3 @@ cargo test --all
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-````
