@@ -1,6 +1,8 @@
 use yew::prelude::*;
+use wasm_bindgen::prelude::*;
 
-pub struct App;
+// Define your main component
+struct App;
 
 impl Component for App {
     type Message = ();
@@ -19,7 +21,8 @@ impl Component for App {
     }
 }
 
+// Initialize the application
 #[wasm_bindgen(start)]
 pub fn run_app() {
-    yew::start_app::<App>();
+    yew::Renderer::<App>::new().render();
 }
